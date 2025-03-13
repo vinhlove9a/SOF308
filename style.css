@@ -1,0 +1,56 @@
+/* Loại bỏ gạch chân cho Wishlist và Cart */
+a.text-uppercase {
+  text-decoration: none !important;
+  color: black;
+}
+
+/* Hiển thị icon cho Search */
+.search-box a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none !important;
+}
+
+.search-box a svg {
+  margin-left: 5px;
+  color: black;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Điều chỉnh khoảng cách giữa các sản phẩm */
+}
+.element-title a {
+  text-decoration: none; /* Bỏ gạch chân */
+  color: black !important; /* Chuyển màu chữ thành đen */
+}
+.btn-link {
+  text-decoration: underline !important; /* Thêm gạch chân */
+}
+.product-content a span {
+  color: black !important;
+}
+.btn-dark.text-uppercase {
+  color: white !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: black; /* Màu nút điều hướng */
+}
+
+.testimonial-item {
+  max-width: 600px;
+  margin: auto;
+}
+footer a {
+  color: #000; /* Đen đậm */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  color: #555; /* Đen nhạt cho các phần còn lại */
+}
+
